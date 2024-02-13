@@ -29,3 +29,6 @@ workflows:
     # Inside the workflow, you define the jobs you want to run.
     jobs:
       - say-hello
+notify:
+   webhooks:
+     - url: https://hooks-glpciaws-public.dev.glip.net/webhook/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJvdCI6ImMiLCJvaSI6Ijg5NTM4NTciLCJpZCI6IjExNzE4NjU4NyJ9.kOwaR12Vo5eMQsmQrIzo16W5wo_tK55k7QSPBqxKm_Q
